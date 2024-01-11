@@ -1,0 +1,124 @@
+.end-game-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  height: 88vh;
+}
+.end-game-title-mobile,
+.end-game-title-landscape {
+  text-align: center;
+  font-family: "Brandon Text-Bold", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 450;
+  text-transform: uppercase;
+  margin-top: 17%;
+  width: 60%;
+}
+.end-game-title-landscape {
+  display: none;
+  margin-top: 0px;
+}
+.end-game-subtitle-mobile,
+.end-game-subtitle-landscape{
+  text-align: center;
+  font-family: "Brandon Text-Bold", sans-serif;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+  margin-bottom: 8%;
+}
+.end-game-subtitle-landscape {
+  display: none;
+  margin-top: 0px;
+}
+
+.end-game-bottom-label {
+  color: #000;
+  text-align: center;
+  /* headlines/H2 */
+  font-family: "Brandon Text-Regular";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 390;
+  line-height: 1.375rem;
+  width: 68%;
+  margin: 0px;
+}
+
+.end-game-button {
+  font-family: "Brandon Text-Bold", sans-serif;
+  border-radius: 6.25rem;
+  background: #121212;
+  color: #fff;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  font-size: 1.25rem;
+  width: 90%;
+  max-width: 343px;
+  margin: auto;
+  margin-top: 3rem;
+  position: absolute;
+  bottom: 3rem;
+}
+.end-game-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  
+}
+.no-margin-bottom{
+  margin-bottom: 0%;
+}
+.green-subtitle{
+ color: #30C45C;
+ 
+}
+.red-subtitle{
+  color:#FF544C;
+}
+@media screen and (min-width: 600px) {
+  .end-game-container {
+    flex-direction: row;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .end-game-title-mobile {
+    display: none;
+  }
+  .end-game-subtitle-mobile{
+    display: none;
+  }
+  .end-game-subtitle-landscape {
+    display: flex;
+    width: auto;
+    margin-bottom: 0%;
+  }
+  .end-game-title-landscape {
+    display: flex;
+    width: auto;
+    margin-bottom: 0%;
+  }
+  .end-game-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    
+  }
+  .end-game-button {
+    position:relative;
+    bottom: 0rem;
+    margin-top: 1.3rem;
+  }
+}

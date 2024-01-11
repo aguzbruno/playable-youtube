@@ -1,0 +1,104 @@
+.tutorial-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+}
+
+.tutorial-banner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.banner-container {
+  height: 25vh;
+  width: 100%;
+  overflow: hidden;
+}
+.banner-container img {
+  object-fit: cover;
+  object-position: 15% 15%;
+  width: 100%;
+  height: 100%;
+}
+.trivia-crack-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tutorial-title {
+  color: #000;
+  text-align: center;
+  font-family: "Brandon Text-Bold", sans-serif;
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 1.625rem; /* 118.182% */
+}
+
+.understood-button {
+  font-family: "Brandon Text-Bold", sans-serif;
+  border-radius: 6.25rem;
+  background: #121212;
+  color: #fff;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  font-size: 1.25rem;
+  width: 90%;
+  max-width: 343px;
+  margin: auto;
+  position: absolute;
+  bottom: 3rem;
+}
+.tutorial-topic-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+@media screen and (min-width: 600px) {
+  .tutorial-topic-container{
+    
+    flex-direction: row;
+    margin-top: 0px;
+    
+  }
+  .banner-container {
+    height: 30vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  .tutorial-title {
+    margin: 0px;
+  }
+  .banner-container img {
+    object-position: 15% 20%;
+  }
+  .trivia-crack-image {
+    width: 232px;
+    position: absolute;
+    left: auto;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+  }
+  .understood-button {
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    position:relative;
+    bottom: 0px;
+  }
+
+
+}

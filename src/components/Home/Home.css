@@ -1,0 +1,281 @@
+.tutorial-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+}
+
+.tutorial-banner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.banner-container {
+  height: 25vh;
+  width: 100%;
+  overflow: hidden;
+}
+.banner-container img {
+  object-fit: cover;
+  object-position: 15% 15%;
+  width: 100%;
+  height: 100%;
+}
+.trivia-crack-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tutorial-title {
+  color: #000;
+  text-align: center;
+  font-family: "Brandon Text-Bold", sans-serif;
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 1.625rem; /* 118.182% */
+}
+
+.understood-button {
+  font-family: "Brandon Text-Bold", sans-serif;
+  border-radius: 6.25rem;
+  background: #121212;
+  color: #fff;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  font-size: 1.25rem;
+  width: 90%;
+  max-width: 343px;
+  margin: auto;
+  position: absolute;
+  bottom: 3rem;
+}
+.score-home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.score-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 1px solid var(--containers-gray-light, #f2f3f4);
+  background: var(--surfaces-surface-container-high, #f2f3f4);
+  width: 92%;
+  position: relative;
+  height: 5.875rem;
+  margin-top: 0rem;
+}
+.score-box img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.text-score-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 5rem;
+}
+.text-score-box p {
+  font-family: "Brandon Text-Regular";
+  margin: 0px;
+}
+.text-score-box .title {
+  color: #000;
+  font-size: 0.875rem;
+  font-weight: 390;
+}
+.text-score-box .record {
+  
+  font-size: 1.375rem;
+  font-weight: 450;
+  font-family: "Brandon Text-Bold";
+}
+.text-score-box .date {
+  color: #9b9b9c;
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.date-record {
+  padding-right: 0px;
+  color: #9b9b9c;
+  font-family: "Brandon Text-Regular";
+  font-size: 0.875rem;
+  font-weight: 450;
+  margin-left: 2rem;
+}
+.correct-answers {
+  padding-left: 0px;
+  color: #000;
+  text-align: center;
+  font-family: "Brandon Text-Regular";
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-right: 2.4rem;
+  width: 30px;
+}
+
+.table-last-scores {
+  margin-top: 1rem;
+  width: 100%;
+  border-collapse: separate; /* Uso de border-spacing */
+}
+.table-last-scores thead {
+  color: #636364;
+  font-family: "Brandon Text-Regular";
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+.table-last-scores table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-last-scores tr{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  padding: 8px; /* Ajusta el espaciado interno según sea necesario */
+}
+.record-item {
+  border-bottom: 1px solid #ddd;
+}
+.missing-score-text {
+  color: #636364;
+  text-align: center;
+  font-family: "Brandon Text-Regular";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 390;
+  margin-top: 2rem;
+  width: 80%;
+}
+.date-thead{
+  padding: 0px;
+  margin-left: 2rem;
+}
+.answers-thead{
+  padding: 0px;
+  margin-right: 2rem;
+}
+.high-record{
+  color: #30C45C;
+}
+.low-record{
+  color: #9b9b9c;
+}
+.bottom-home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.top-home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 330px) {
+  .text-score-box .record {
+    font-size: 1rem;
+  }
+
+}
+@media screen and (min-width: 600px) {
+  .table-last-scores {
+    margin-top: 0px;
+   
+  }
+  .score-home-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 0px;
+    width: 100%;
+  }
+  .banner-container {
+    height: 30vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  .tutorial-title {
+    margin: 0px;
+    font-size: 1rem;
+    text-align: left;
+  }
+  .banner-container img {
+    object-position: 15% 20%;
+  }
+  .trivia-crack-image {
+    width: 232px;
+    position: absolute;
+    left: auto;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+  }
+  .understood-button {
+    margin: auto;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    position: relative;
+    bottom: 0px;
+  }
+  .top-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+  }
+  .bottom-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+  }
+  .score-box {
+    margin-top: 1.5rem;
+  }
+  .missing-score-text {
+    margin:auto;
+    width: auto;
+    margin-top: 0.5rem;
+  }
+  .date-thead{
+    padding: 0px;
+    margin-left: 1rem;
+  }
+  .answers-thead{
+    padding: 0px;
+    margin-right: 1rem;
+  }
+  .table-last-scores {
+    margin-top: 0rem;
+  }
+}
+

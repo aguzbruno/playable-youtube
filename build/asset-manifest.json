@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e86ca8b8.css",
+    "main.js": "/static/js/main.3fc44396.js",
+    "static/js/787.9d222997.chunk.js": "/static/js/787.9d222997.chunk.js",
+    "static/media/bannerImage.png": "/static/media/bannerImage.3a9475dffcb8e819480a.png",
+    "static/media/loader.jpg": "/static/media/loader.c5168a988dcafc3eabba.jpg",
+    "static/media/Inicioapp_SFX.mp3": "/static/media/Inicioapp_SFX.1893e76610ca6a98ecea.mp3",
+    "static/media/BrandonText-Bold.otf": "/static/media/BrandonText-Bold.db5fce6eca3a6acc86c1.otf",
+    "static/media/BrandonText-Black.otf": "/static/media/BrandonText-Black.f29bbc0cb521f50d847c.otf",
+    "static/media/BrandonText-Regular.otf": "/static/media/BrandonText-Regular.83620198839e84ef5e4c.otf",
+    "static/media/Partida_gana_SFX.mp3": "/static/media/Partida_gana_SFX.2188c618db8fa4d75d8f.mp3",
+    "static/media/Correcto_SFX.mp3": "/static/media/Correcto_SFX.23b2dd3247be73261a99.mp3",
+    "static/media/Incorrecto_SFX.mp3": "/static/media/Incorrecto_SFX.dc9b6d8c95ff7afa4ca2.mp3",
+    "static/media/Partida_perdio_SFX.mp3": "/static/media/Partida_perdio_SFX.ea0e9a15a13132675546.mp3",
+    "static/media/star.svg": "/static/media/star.31294aec2b2cbcf641a34c3e4dca306c.svg",
+    "static/media/homeHighScore.svg": "/static/media/homeHighScore.6f331910be25c6147ba8fd6d88ad1c1f.svg",
+    "static/media/Finalizatiempo_SFX.mp3": "/static/media/Finalizatiempo_SFX.ac7366b7c7b261752cce.mp3",
+    "static/media/triviaCrack.svg": "/static/media/triviaCrack.14a2828064177d2b9cd7000aeefd1243.svg",
+    "static/media/entertainment.svg": "/static/media/entertainment.e525cc701d80dcd0aa74365f30d1d093.svg",
+    "static/media/Cuentaregresiva_SFX.mp3": "/static/media/Cuentaregresiva_SFX.4b05c967d92c9bcd0b7f.mp3",
+    "static/media/certificate.svg": "/static/media/certificate.9e0939f2588498872d7eb2b22b391632.svg",
+    "static/media/homeLowScore.svg": "/static/media/homeLowScore.4c7715d4bc681665a8103b76da442918.svg",
+    "static/media/triviaCrackLoader.svg": "/static/media/triviaCrackLoader.474c4d1adb60be53b70e061f0dac89c1.svg",
+    "static/media/sport.svg": "/static/media/sport.a9757f3fa44822cd611a2b947bf2e571.svg",
+    "static/media/history.svg": "/static/media/history.7564fa8f900b026098f27f162e5beabb.svg",
+    "static/media/science.svg": "/static/media/science.a61eb838dacf3a8c68143f5ed258a3ec.svg",
+    "static/media/geography.svg": "/static/media/geography.3d00d27d7acab2ad155cd22a394f2709.svg",
+    "static/media/art.svg": "/static/media/art.05e99f6bebc629074c44352285106ffe.svg",
+    "static/media/raise.svg": "/static/media/raise.3b6ba1294a5c222ca3aeda08070c637d.svg",
+    "index.html": "/index.html",
+    "main.e86ca8b8.css.map": "/static/css/main.e86ca8b8.css.map",
+    "main.3fc44396.js.map": "/static/js/main.3fc44396.js.map",
+    "787.9d222997.chunk.js.map": "/static/js/787.9d222997.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e86ca8b8.css",
+    "static/js/main.3fc44396.js"
+  ]
+}

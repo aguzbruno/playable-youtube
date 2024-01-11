@@ -1,0 +1,17 @@
+{
+  "tutorial": {
+    "name": "app.tutorial",
+    "nextView": "gaiming",
+    "isFirst": true
+  },
+  "gaming": {
+    "name": "app.gaming",
+    "nextView": "score",
+    "previousView": "tutorial"
+  },
+  "score": {
+    "name": "app.score",
+    "nextView": "gaming",
+    "previousView": "gaming"
+  }
+}
